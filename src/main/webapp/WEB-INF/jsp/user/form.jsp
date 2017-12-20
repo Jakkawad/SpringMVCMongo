@@ -16,7 +16,6 @@
 <body>
 
     <spring:url value="/user/save" var="saveURL"></spring:url>
-
     <form:form action="${saveURL}" modelAttribute="userForm" method="POST">
         <form:hidden path="id"></form:hidden>
         <label>Name: </label>
