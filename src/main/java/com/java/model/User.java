@@ -3,7 +3,7 @@ package com.java.model;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document
+@Document(collection = "user(")
 public class User {
 
     @Id
